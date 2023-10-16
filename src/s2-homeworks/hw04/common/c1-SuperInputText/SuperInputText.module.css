@@ -1,7 +1,12 @@
 .input:focus {
+  border: 2px solid yellowgreen;
+  outline: none;
 }
 
 .input {
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 2px solid lightseagreen;
 }
 
 .inputWrapper {
@@ -11,10 +16,16 @@
 }
 
 .errorInput {
+  border: 2px solid tomato;
 }
 
 .errorInput:focus {
+  border: 2px solid tomato;
 }
 
 .error {
+  color: tomato;
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: bold;
 }
